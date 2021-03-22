@@ -1,0 +1,36 @@
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\Google Street.dll.config
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\Google Street.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\Google Street.pdb
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\csc.exe
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\csc.exe.config
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\csc.rsp
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\csi.exe
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\csi.rsp
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\vbc.exe
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\vbc.exe.config
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\vbc.rsp
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\source\repos\Google Street\Google Street\obj\Debug\Google Street.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Google Street\Google Street\obj\Debug\Google Street.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Google Street\Google Street\obj\Debug\Google Street.csproj.CopyComplete
+C:\Users\Admin\source\repos\Google Street\Google Street\obj\Debug\Google Street.dll
+C:\Users\Admin\source\repos\Google Street\Google Street\obj\Debug\Google Street.pdb

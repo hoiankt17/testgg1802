@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Google_Street.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Google Maps JavaScript library -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8"></script>
+
+    <style>
+        #search_input {font-size:18px;}
+.form-group{
+ margin-bottom: 10px;margin-top:50px;
+}
+.form-group label{
+ font-size:18px;
+ font-weight: 600;
+}
+.form-group input{
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}   
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+<script>
+    var searchInput = 'search_input';
+
+    $(document).ready(function () {
+        var options = {
+            types: ['geocode'],
+            componentRestrictions: { country: "vn"}
+        };
+        var input = document.getElementById("search_input");
+        var autocomplete = new google.maps.places.Autocomplete(input, options);
+        var result = autocomplete.getPlace();
+        console.log(result); // take a look at this result object
+        console.log(result.address_components); // a result has multiple address components
+
+        for (var i = 0; i < result.address_components.length; i += 1) {
+            var addressObj = result.address_components[i];
+            for (var j = 0; j < addressObj.types.length; j += 1) {
+                if (addressObj.types[j] === 'Đà Nẵng') {
+                    console.log(addressObj.types[j]); // confirm that this is 'country'
+                    console.log(addressObj.long_name); // confirm that this is the country name
+                }
+            }
+        }
+    });
+    
+</script>
+</body>
+</html>
